@@ -33,7 +33,7 @@ public class Ejercicio5 {
 		String fichero = "Paises.xml";
 		FileInputStream fis = new FileInputStream(fichero);
 
-		// Si la tabla ya esta creada llamar al metodo DAO.start() antes de realizar
+		// Si la tabla ya esta creada descomentar gestor.start() y comentar gestor.crearTabla() antes de realizar
 		// cualquier operacion CRUD
 		gestor.crearTabla();
 //		gestor.start();
